@@ -1,3 +1,5 @@
+from role import Role
+
 class Formation:
     def __init__(self):
 
@@ -7,7 +9,8 @@ class Formation:
         self.defensive_mf_line = None
         self.defensive_line = None
         self.lines = []
-
+        #this list will be where all of the roles are stored(and players will get fit into)
+        self.players = dict({})
     def inputFormation(self):
 
         print("What formation are you using?")
@@ -38,11 +41,13 @@ class Formation:
             self.defensive_line
             ]
 
+
     def displayFormation(self):
         print("Here is your formations basic positions: ")
         for line in self.lines:
             print(line)
 
+    def addRoles(self):
 
 def interpretLine(line):
     result = 0

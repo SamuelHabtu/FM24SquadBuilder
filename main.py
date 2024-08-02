@@ -1,6 +1,7 @@
 import os
 from player import Player
 from formation import Formation
+from role import Role
 
 def getTeam(team_name):
 
@@ -33,6 +34,7 @@ def main():
     roster = getTeam(team_file_name)
     for player in roster:
         print(f"Name: {player.name}, Attributes: {player.attributes}")
+    
 
 
 

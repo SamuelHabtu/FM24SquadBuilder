@@ -10,5 +10,3 @@ class Player():
         '''
         self.name = name
         self.attributes = attributes if attributes is not None else {}
-    def getAttributes(self):
-        return self.attributes
