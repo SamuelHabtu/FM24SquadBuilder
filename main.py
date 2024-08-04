@@ -32,10 +32,27 @@ def main():
         print(f"{i + 1}: {team_files[i]}")
     team_file_name = team_files[int(input(": ")) - 1]
     roster = getTeam(team_file_name)
+    test = Formation()
+
     for player in roster:
         print(f"Name: {player.name}, Attributes: {player.attributes}")
     
+    perfect_score = 0
+    for role in test.roles:
+        print(test.roles[role].weights)
+    for atri in test.roles["GoalKeeper-Defend"].weights:
+        perfect_score += test.roles["GoalKeeper-Defend"].weights[atri]*20
+    sum = 0
+    scores = []
+    for player in roster:
 
+        for atri in player.attributes:
+           sum += player.attributes[atri] *test.roles["GoalKeeper-Defend"].weights[atri]
+        scores.append((player.name, sum))
+        print(f"{player.name}: GoalKeeper-Defend: {sum}, Perfect score is {perfect_score}: {100*(sum/perfect_score)}%")
+        sum = 0
+    scores.sort(key = lambda a:a[1], reverse=True)
+    print(scores[:5])
 
 
 if __name__ == "__main__":

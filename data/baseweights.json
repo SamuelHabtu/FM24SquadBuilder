@@ -1,0 +1,604 @@
+{   
+    "GoalKeeper-Defend": 
+    {
+        "Cor": 0.0, "Cro": 0.0, "Dri": 0.0, "Fin": 0.0, "Fir": 1.0, "Fre": 0.0, "Hea": 1.0, "Lon": 0.0, "L Th": 0.0, "Mar": 0.0, "Pas": 3.0, "Pen": 0.0, "Tck": 0.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 6.0, "Cmp": 2.0, "Cnt": 6.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 0.0, "Pos": 5.0, "Tea": 2.0, "Vis": 1.0, "Wor": 1.0,
+        "Acc": 6.0, "Agi": 8.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 3.0, "Sta": 1.0, "Str": 4.0,
+        "Aer": 6.0, "Cmd": 6.0, "Com": 5.0, "Ecc": 0.0, "Han": 8.0, "Kic": 5.0, "1v1": 4.0, "Pun": 0.0, "Ref": 8.0, "TRO": 0.0,  "Thr": 3.0
+    },
+    "SweeperKeeper-Defend": 
+    {
+        "Cor": 0.0, "Cro": 0.0, "Dri": 0.0, "Fin": 0.0, "Fir": 1.0, "Fre": 0.0, "Hea": 1.0, "Lon": 0.0, "L Th": 0.0, "Mar": 0.0, "Pas": 3.0, "Pen": 0.0, "Tck": 0.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 6.0, "Cmp": 2.0, "Cnt": 6.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 0.0, "Pos": 5.0, "Tea": 2.0, "Vis": 1.0, "Wor": 1.0,
+        "Acc": 6.0, "Agi": 8.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 3.0, "Sta": 1.0, "Str": 4.0,
+        "Aer": 6.0, "Cmd": 6.0, "Com": 5.0, "Ecc": 0.0, "Han": 8.0, "Kic": 5.0, "1v1": 4.0, "Pun": 0.0, "Ref": 8.0, "TRO": 0.0,  "Thr": 3.0
+    },
+    "SweeperKeeper-Support": 
+    {
+        "Cor": 0.0, "Cro": 0.0, "Dri": 0.0, "Fin": 0.0, "Fir": 1.0, "Fre": 0.0, "Hea": 1.0, "Lon": 0.0, "L Th": 0.0, "Mar": 0.0, "Pas": 3.0, "Pen": 0.0, "Tck": 0.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 6.0, "Cmp": 2.0, "Cnt": 6.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 0.0, "Pos": 5.0, "Tea": 2.0, "Vis": 1.0, "Wor": 1.0,
+        "Acc": 6.0, "Agi": 8.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 3.0, "Sta": 1.0, "Str": 4.0,
+        "Aer": 6.0, "Cmd": 6.0, "Com": 5.0, "Ecc": 0.0, "Han": 8.0, "Kic": 5.0, "1v1": 4.0, "Pun": 0.0, "Ref": 8.0, "TRO": 0.0,  "Thr": 3.0
+    },
+    "SweeperKeeper-Attack": 
+    {
+        "Cor": 0.0, "Cro": 0.0, "Dri": 0.0, "Fin": 0.0, "Fir": 1.0, "Fre": 0.0, "Hea": 1.0, "Lon": 0.0, "L Th": 0.0, "Mar": 0.0, "Pas": 3.0, "Pen": 0.0, "Tck": 0.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 6.0, "Cmp": 2.0, "Cnt": 6.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 0.0, "Pos": 5.0, "Tea": 2.0, "Vis": 1.0, "Wor": 1.0,
+        "Acc": 6.0, "Agi": 8.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 3.0, "Sta": 1.0, "Str": 4.0,
+        "Aer": 6.0, "Cmd": 6.0, "Com": 5.0, "Ecc": 0.0, "Han": 8.0, "Kic": 5.0, "1v1": 4.0, "Pun": 0.0, "Ref": 8.0, "TRO": 0.0,  "Thr": 3.0
+    },
+    "FullBack-Defend": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 1.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 2.0, "Lon": 1.0, "L Th": 1.0, "Mar": 3.0, "Pas": 2.0, "Pen": 1.0, "Tck": 4.0, "Tec": 2.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 4.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 7.0, "Agi": 6.0, "Bal": 2.0, "Jum": 2.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "FullBack-Support": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 1.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 2.0, "Lon": 1.0, "L Th": 1.0, "Mar": 3.0, "Pas": 2.0, "Pen": 1.0, "Tck": 4.0, "Tec": 2.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 4.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 7.0, "Agi": 6.0, "Bal": 2.0, "Jum": 2.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "FullBack-Attack": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 1.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 2.0, "Lon": 1.0, "L Th": 1.0, "Mar": 3.0, "Pas": 2.0, "Pen": 1.0, "Tck": 4.0, "Tec": 2.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 4.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 7.0, "Agi": 6.0, "Bal": 2.0, "Jum": 2.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Wingback-Defend": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Wingback-Support": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Wingback-Attack": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "NoNonsenseFullBack-Defend": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 1.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 2.0, "Lon": 1.0, "L Th": 1.0, "Mar": 3.0, "Pas": 2.0, "Pen": 1.0, "Tck": 4.0, "Tec": 2.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 4.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 7.0, "Agi": 6.0, "Bal": 2.0, "Jum": 2.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CompleteWingback-Support": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CompleteWingback-Attack": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CompleteWingback-Defend": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "InvertedWingback-Defend": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "InvertedWingback-Support": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "InvertedWingback-Attack": 
+    {
+        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "InvertedFullBack-Defend": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 1.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 2.0, "Lon": 1.0, "L Th": 1.0, "Mar": 3.0, "Pas": 2.0, "Pen": 1.0, "Tck": 4.0, "Tec": 2.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 4.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 7.0, "Agi": 6.0, "Bal": 2.0, "Jum": 2.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CentralDefender-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CentralDefender-Stopper": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CentralDefender-Cover": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Libero-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Libero-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "BallPlayingDefender-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "BallPlayingDefender-Stopper": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "BallPlayingDefender-Cover": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "NoNonsenseCenterBack-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "NoNonsenseCenterBack-Stopper": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "NoNonsenseCenterBack-Cover": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WideCenterBack-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WideCenterBack-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WideCenterBack-Attack": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 1.0, "Fin": 1.0, "Fir": 2.0, "Fre": 1.0, "Hea": 5.0, "Lon": 1.0, "L Th": 1.0, "Mar": 8.0, "Pas": 2.0, "Pen": 1.0, "Tck": 5.0, "Tec": 1.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 2.0, "Cmp": 2.0, "Cnt": 4.0, "Dec": 10.0, "Det": 0.0, "Fla": 0.0, "Ldr": 2.0, "OtB": 1.0, "Pos": 8.0, "Tea": 1.0, "Vis": 1.0, "Wor": 2.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 6.0, "Nat": 0.0, "Pac": 5.0, "Sta": 3.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "DefensiveMidfielder-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "DefensiveMidfielder-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "DeepLyingPlayMaker-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "DeepLyingPlayMaker-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "BallWinningMidFielder-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "BallWinningMidFielder-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Anchor-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Regista-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "SegundoVolante-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "SegundoVolante-Attack": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "HalfBack-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 4.0, "Pen": 1.0, "Tck": 7.0, "Tec": 3.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 8.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 1.0, "Pos": 5.0, "Tea": 2.0, "Vis": 4.0, "Wor": 4.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 4.0, "Sta": 4.0, "Str": 5.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WideMidFielder-Defend": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 3.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 3.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 8.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 5.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WideMidFielder-Support": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 3.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 3.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 8.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 5.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WideMidFielder-Attack": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 3.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 3.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 8.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 5.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "DefensiveWinger-Defend": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 3.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 3.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 8.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 5.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "DefensiveWinger-Support": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 3.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 3.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 8.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 5.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WidePlayMaker-Support": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 3.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 3.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 8.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 5.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WidePlaymaker-Attack": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 3.0, "Fin": 2.0, "Fir": 4.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 3.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 8.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 5.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "RoamingPlayMaker-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 6.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 6.0, "Pen": 1.0, "Tck": 3.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 3.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CentralMidFielder-Defend": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 6.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 6.0, "Pen": 1.0, "Tck": 3.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 3.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CentralMidFielder-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 6.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 6.0, "Pen": 1.0, "Tck": 3.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 3.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CentralMidFielder-Attack": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 6.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 6.0, "Pen": 1.0, "Tck": 3.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 3.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "BoxToBoxMidFielder-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 6.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 6.0, "Pen": 1.0, "Tck": 3.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 3.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Mezalla-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 6.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 6.0, "Pen": 1.0, "Tck": 3.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 3.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Mezalla-Attack": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 6.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 6.0, "Pen": 1.0, "Tck": 3.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 3.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Carrilero-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 2.0, "Fin": 2.0, "Fir": 6.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 3.0, "Pas": 6.0, "Pen": 1.0, "Tck": 3.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 3.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 6.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 5.0, "Sta": 6.0, "Str": 4.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Winger-Support": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Winger-Attack": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "InvertedWinger-Support": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "InvertedWinger-Attack": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "InsideForward-Support": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "InsideForward-Attack": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WideTargetMan-Support": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "WideTargetMan-Attack": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Raumdeuter-Attack": 
+    {
+        "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "AttackingMidFielder-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 3.0, "Fin": 3.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 1.0, "Pas": 4.0, "Pen": 1.0, "Tck": 2.0, "Tec": 5.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 6.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 2.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 9.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "AttackingMidFielder-Attack": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 3.0, "Fin": 3.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 1.0, "Pas": 4.0, "Pen": 1.0, "Tck": 2.0, "Tec": 5.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 6.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 2.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 9.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "AdvancedPlayMaker-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 3.0, "Fin": 3.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 1.0, "Pas": 4.0, "Pen": 1.0, "Tck": 2.0, "Tec": 5.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 6.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 2.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 9.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "AdvancedPlayMaker-Attack": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 3.0, "Fin": 3.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 1.0, "Pas": 4.0, "Pen": 1.0, "Tck": 2.0, "Tec": 5.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 6.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 2.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 9.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Trequartista-Attack": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 3.0, "Fin": 3.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 1.0, "Pas": 4.0, "Pen": 1.0, "Tck": 2.0, "Tec": 5.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 6.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 2.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 9.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Enganche-Support": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 3.0, "Fin": 3.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 1.0, "Pas": 4.0, "Pen": 1.0, "Tck": 2.0, "Tec": 5.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 6.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 2.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 9.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "ShadowStriker-Attack": 
+    {
+        "Cor": 1.0, "Cro": 1.0, "Dri": 3.0, "Fin": 3.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 3.0, "L Th": 1.0, "Mar": 1.0, "Pas": 4.0, "Pen": 1.0, "Tck": 2.0, "Tec": 5.0,
+        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 6.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 3.0, "Pos": 2.0, "Tea": 2.0, "Vis": 6.0, "Wor": 3.0,
+        "Acc": 9.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 3.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Poacher-Attack": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "DeepLyingForward-Support": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "DeepLyingForward-Attack": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "AdvancedForward-Attack": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Target Man-Support": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "Target Man-Attack": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CompleteForward-Support": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "CompleteForward-Attack": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "PressingForward-Defend": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "PressingForward-Support": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "PressingForward-Attack": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    },
+    "FalseNine-Support": 
+    {
+        "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
+        "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
+        "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
+        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
+    }
+}

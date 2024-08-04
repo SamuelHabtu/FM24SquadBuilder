@@ -1,4 +1,5 @@
 from role import Role
+import json
 
 class Formation:
     def __init__(self):
@@ -10,7 +11,9 @@ class Formation:
         self.defensive_line = None
         self.lines = []
         #this list will be where all of the roles are stored(and players will get fit into)
-        self.players = dict({})
+        self.positions = dict({})
+        self.roles = self.addRoles()
+
     def inputFormation(self):
 
         print("What formation are you using?")
@@ -47,8 +50,49 @@ class Formation:
         for line in self.lines:
             print(line)
 
-    def addRoles(self):
+    def addRoles(self, file_name = "baseweights.json"):
+        
+        file = open(f'data/{file_name}')
+        role_duty_weights = json.load(file)
+        roles = dict({})
 
+        for role in role_duty_weights:
+            temp_role, temp_duty = role.split("-")
+            roles[role] = Role(temp_role, temp_duty, role_duty_weights[role])
+        #Setting the key and important Attributes for each role:
+        #Goalie Roles:
+        roles["GoalKeeper-Defend"].updateWeights(["Aer", "Cmd", "Com", "Han", "Kic", "Ref", "Ant", "Con", "Pos", "Agi"], ["1v1", "Thr", "Dec"])
+        roles["SweeperKeeper-Defend"].updateWeights(["Cmd", "Kic", "1v1", "Ref", "Ant", "Con", "Pos", "Agi"], ["Aer", "Com", "Fir", "Han", "Pas", "TRO", "Thr", "Cmp", "Dec", "Vis"])
+        roles["SweeperKeeper-Support"].updateWeights(["Cmd", "Kic", "1v1", "TRO", "Ant", "Cmp", "Con", "Pos", "Agi"], ["Aer", "Com", "Fir", "Han", "Pas", "Thr", "Vis", "Acc"])
+        roles["SweeperKeeper-Attack"].updateWeights(["Cmd", "Kic", "1v1", "TRO", "Ant", "Cmp", "Con", "Pos", "Agi"], ["Aer", "Com", "Fir", "Han", "Pas", "Thr", "Vis", "Acc", "Ecc"])
+
+        #LRFB Roles:
+        roles["FullBack-Defend"].updateWeights(["Mar", "Tck", "Ant", "Con", "Pos"], ["Cro", "Pas", "Tea", "Wor", "Pac", "Sta"])
+        roles["FullBack-Support"].updateWeights([], [])
+        roles["FullBack-Attack"].updateWeights([], [])
+        roles["NoNonsenseFullBack-Defend"].updateWeights([], [])
+        roles["InvertedFullBack-Defend"].updateWeights([], [])
+
+
+        #CD Roles:
+
+        #WBLR Roles:
+
+        #DM Roles:
+
+        #MLR Roles:
+
+        #MC Roles:
+
+        #AMLR Roles:
+
+        #AMC Roles:
+
+        #FWD Roles:
+
+        return roles
+
+        
 def interpretLine(line):
     result = 0
     for i in range(len(line)):
@@ -58,4 +102,4 @@ def interpretLine(line):
 
 if __name__ == "__main__":
 
-    test = formation()
+    test = Formation()
