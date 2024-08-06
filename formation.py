@@ -50,10 +50,14 @@ class Formation:
         for line in self.lines:
             print(line)
 
-    def addRoles(self, file_name = "baseweights.json"):
+    def addRoles(self, file_name = "baseweights.json", key_atri = "keyattributes.json", important_atri = "importantattributes.json"):
         
         file = open(f'data/{file_name}')
+        #key_file = open(f'data/{key_atri}')
+        #important_file = open(f'data/{important_atri}')
         role_duty_weights = json.load(file)
+        #key_attributes = json.load(key_atri)
+        #important_attributes = json.load(important_atri)
         roles = dict({})
 
         for role in role_duty_weights:
@@ -68,13 +72,16 @@ class Formation:
 
         #LRFB Roles:
         roles["FullBack-Defend"].updateWeights(["Mar", "Tck", "Ant", "Con", "Pos"], ["Cro", "Pas", "Tea", "Wor", "Pac", "Sta"])
-        roles["FullBack-Support"].updateWeights([], [])
-        roles["FullBack-Attack"].updateWeights([], [])
-        roles["NoNonsenseFullBack-Defend"].updateWeights([], [])
-        roles["InvertedFullBack-Defend"].updateWeights([], [])
-
+        roles["FullBack-Support"].updateWeights(["Mar", "Tck", "Ant", "Con", "Pos", "Tea"], ["Cro", "Dri", "Pas", "Tec", "Dec", "Wor", "Pac", "Sta"])
+        roles["FullBack-Attack"].updateWeights(["Cro", "Mar", "Tck", "Ant", "Pos", "Tea"], ["Dri", "Fir", "Pas", "Tec", "Con", "Dec", "OtB", "Wor", "Agi", "Pac", "Sta"])
+        roles["NoNonsenseFullBack-Defend"].updateWeights(["Mar", "Tck", "Ant", "Pos", "Str"], ["Hea", "Agg", "Bra", "Con", "Tea"])
+        roles["InvertedFullBack-Defend"].updateWeights(["Hea", "Mar", "Tck", "Pos", "Str"], ["Dri", "Fir", "Pas", "Tec", "Agg", "Ant", "Bra", "Cmp", "Con", "Dec", "Wor", "Agi", "Jum", "Pac"])
 
         #CD Roles:
+        roles["CentralDefender-Defend"].updateWeights(["Hea", "Mar", "Tck", "Pos", "Jum", "Str"], ["Agg", "Ant", "Bra", "Cmp", "Con", "Dec", "Pac"])
+        roles["CentralDefender-Stopper"].updateWeights(["Hea", "Tck", "Agg", "Bra", "Dec", "Pos", "Jum", "Str"], [""])
+  
+
 
         #WBLR Roles:
 

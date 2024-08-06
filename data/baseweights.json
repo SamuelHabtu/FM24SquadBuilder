@@ -90,13 +90,6 @@
         "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
         "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
     },
-    "CompleteWingback-Defend": 
-    {
-        "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,
-        "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 2.0, "Cnt": 3.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 3.0, "Tea": 2.0, "Vis": 2.0, "Wor": 2.0,
-        "Acc": 8.0, "Agi": 5.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 6.0, "Sta": 7.0, "Str": 4.0,
-        "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
-    },
     "InvertedWingback-Defend": 
     {
         "Cor": 1.0, "Cro": 3.0, "Dri": 2.0, "Fin": 1.0, "Fir": 3.0, "Fre": 1.0, "Hea": 1.0, "Lon": 1.0, "L Th": 1.0, "Mar": 2.0, "Pas": 3.0, "Pen": 1.0, "Tck": 3.0, "Tec": 3.0,

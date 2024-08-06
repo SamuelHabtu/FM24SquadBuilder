@@ -34,22 +34,23 @@ def main():
     roster = getTeam(team_file_name)
     test = Formation()
 
-    for player in roster:
-        print(f"Name: {player.name}, Attributes: {player.attributes}")
+    #for player in roster:
+    #    print(f"Name: {player.name}, Attributes: {player.attributes}")
     
     perfect_score = 0
-    for role in test.roles:
-        print(test.roles[role].weights)
-    for atri in test.roles["GoalKeeper-Defend"].weights:
-        perfect_score += test.roles["GoalKeeper-Defend"].weights[atri]*20
+    for atri in test.roles["Poacher-Attack"].weights:
+        perfect_score += test.roles["Poacher-Attack"].weights[atri]*20
     sum = 0
     scores = []
+    #for role in test.roles:
+    #    for atri in player.attributes:
+
     for player in roster:
 
         for atri in player.attributes:
-           sum += player.attributes[atri] *test.roles["GoalKeeper-Defend"].weights[atri]
+           sum += player.attributes[atri] *test.roles["Poacher-Attack"].weights[atri]
         scores.append((player.name, sum))
-        print(f"{player.name}: GoalKeeper-Defend: {sum}, Perfect score is {perfect_score}: {100*(sum/perfect_score)}%")
+        print(f"{player.name}: Poacher-Attack: {sum} Role ability rating of : {20*(sum/(perfect_score/20)) - 120}")
         sum = 0
     scores.sort(key = lambda a:a[1], reverse=True)
     print(scores[:5])
