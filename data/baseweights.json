@@ -440,14 +440,14 @@
         "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
         "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
     },
-    "WideTargetMan-Support": 
+    "WideTargetForward-Support": 
     {
         "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
         "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
         "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 1.0, "Nat": 0.0, "Pac": 10.0, "Sta": 7.0, "Str": 3.0,
         "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
     },
-    "WideTargetMan-Attack": 
+    "WideTargetForward-Attack": 
     {
         "Cor": 1.0, "Cro": 5.0, "Dri": 5.0, "Fin": 2.0, "Fir": 5.0, "Fre": 1.0, "Hea": 1.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 2.0, "Tec": 4.0,
         "Agg": 0.0, "Ant": 3.0, "Bra": 1.0, "Cmp": 3.0, "Cnt": 2.0, "Dec": 7.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 2.0, "Pos": 1.0, "Tea": 2.0, "Vis": 3.0, "Wor": 3.0,
@@ -538,14 +538,14 @@
         "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
         "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
     },
-    "Target Man-Support": 
+    "TargetForward-Support": 
     {
         "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
         "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,
         "Acc": 10.0, "Agi": 6.0, "Bal": 2.0, "Jum": 5.0, "Nat": 0.0, "Pac": 7.0, "Sta": 6.0, "Str": 6.0,
         "Aer": 0.0, "Cmd": 0.0, "Com": 0.0, "Ecc": 0.0, "Han": 0.0, "Kic": 0.0, "1v1": 0.0, "Pun": 0.0, "Ref": 0.0, "TRO": 0.0,  "Thr": 0.0
     },
-    "Target Man-Attack": 
+    "TargetForward-Attack": 
     {
         "Cor": 1.0, "Cro": 2.0, "Dri": 5.0, "Fin": 8.0, "Fir": 6.0, "Fre": 1.0, "Hea": 6.0, "Lon": 2.0, "L Th": 1.0, "Mar": 1.0, "Pas": 2.0, "Pen": 1.0, "Tck": 1.0, "Tec": 4.0,
         "Agg": 0.0, "Ant": 5.0, "Bra": 1.0, "Cmp": 6.0, "Cnt": 2.0, "Dec": 5.0, "Det": 0.0, "Fla": 0.0, "Ldr": 1.0, "OtB": 6.0, "Pos": 2.0, "Tea": 1.0, "Vis": 2.0, "Wor": 2.0,

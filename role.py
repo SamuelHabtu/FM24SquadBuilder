@@ -7,7 +7,7 @@ class Role():
 
     def updateWeights(self, key_attributes, important_attributes):
 
-        non_important_cap = 3.0
+        non_important_cap = 4.0
         key_atr = 10.0
         important_atr = 8.0
 
@@ -19,4 +19,7 @@ class Role():
 
         for attribute in important_attributes:
             self.weights[attribute] = important_atr
+
+    def __repr__(self):
+        return f"{self.weights}"
 

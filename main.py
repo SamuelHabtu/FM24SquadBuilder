@@ -38,8 +38,8 @@ def main():
     #    print(f"Name: {player.name}, Attributes: {player.attributes}")
     
     perfect_score = 0
-    for atri in test.roles["Poacher-Attack"].weights:
-        perfect_score += test.roles["Poacher-Attack"].weights[atri]*20
+    for atri in test.roles["FalseNine-Support"].weights:
+        perfect_score += test.roles["FalseNine-Support"].weights[atri]*20
     sum = 0
     scores = []
     #for role in test.roles:
@@ -48,13 +48,12 @@ def main():
     for player in roster:
 
         for atri in player.attributes:
-           sum += player.attributes[atri] *test.roles["Poacher-Attack"].weights[atri]
+           sum += player.attributes[atri] *test.roles["FalseNine-Support"].weights[atri]
         scores.append((player.name, sum))
-        print(f"{player.name}: Poacher-Attack: {sum} Role ability rating of : {20*(sum/(perfect_score/20)) - 120}")
+        print(f"{player.name}: FalseNine-Support: {sum} Role ability rating of : {20*(sum/(perfect_score/20)) - 120}")
         sum = 0
     scores.sort(key = lambda a:a[1], reverse=True)
     print(scores[:5])
-
 
 if __name__ == "__main__":
     main()

@@ -53,49 +53,19 @@ class Formation:
     def addRoles(self, file_name = "baseweights.json", key_atri = "keyattributes.json", important_atri = "importantattributes.json"):
         
         file = open(f'data/{file_name}')
-        #key_file = open(f'data/{key_atri}')
-        #important_file = open(f'data/{important_atri}')
         role_duty_weights = json.load(file)
-        #key_attributes = json.load(key_atri)
-        #important_attributes = json.load(important_atri)
+
+        key_file = open(f'data/{key_atri}')
+        key_attributes = json.load(key_file)
+        important_file = open(f'data/{important_atri}')
+        important_attributes = json.load(important_file)
         roles = dict({})
 
         for role in role_duty_weights:
             temp_role, temp_duty = role.split("-")
             roles[role] = Role(temp_role, temp_duty, role_duty_weights[role])
-        #Setting the key and important Attributes for each role:
-        #Goalie Roles:
-        roles["GoalKeeper-Defend"].updateWeights(["Aer", "Cmd", "Com", "Han", "Kic", "Ref", "Ant", "Con", "Pos", "Agi"], ["1v1", "Thr", "Dec"])
-        roles["SweeperKeeper-Defend"].updateWeights(["Cmd", "Kic", "1v1", "Ref", "Ant", "Con", "Pos", "Agi"], ["Aer", "Com", "Fir", "Han", "Pas", "TRO", "Thr", "Cmp", "Dec", "Vis"])
-        roles["SweeperKeeper-Support"].updateWeights(["Cmd", "Kic", "1v1", "TRO", "Ant", "Cmp", "Con", "Pos", "Agi"], ["Aer", "Com", "Fir", "Han", "Pas", "Thr", "Vis", "Acc"])
-        roles["SweeperKeeper-Attack"].updateWeights(["Cmd", "Kic", "1v1", "TRO", "Ant", "Cmp", "Con", "Pos", "Agi"], ["Aer", "Com", "Fir", "Han", "Pas", "Thr", "Vis", "Acc", "Ecc"])
-
-        #LRFB Roles:
-        roles["FullBack-Defend"].updateWeights(["Mar", "Tck", "Ant", "Con", "Pos"], ["Cro", "Pas", "Tea", "Wor", "Pac", "Sta"])
-        roles["FullBack-Support"].updateWeights(["Mar", "Tck", "Ant", "Con", "Pos", "Tea"], ["Cro", "Dri", "Pas", "Tec", "Dec", "Wor", "Pac", "Sta"])
-        roles["FullBack-Attack"].updateWeights(["Cro", "Mar", "Tck", "Ant", "Pos", "Tea"], ["Dri", "Fir", "Pas", "Tec", "Con", "Dec", "OtB", "Wor", "Agi", "Pac", "Sta"])
-        roles["NoNonsenseFullBack-Defend"].updateWeights(["Mar", "Tck", "Ant", "Pos", "Str"], ["Hea", "Agg", "Bra", "Con", "Tea"])
-        roles["InvertedFullBack-Defend"].updateWeights(["Hea", "Mar", "Tck", "Pos", "Str"], ["Dri", "Fir", "Pas", "Tec", "Agg", "Ant", "Bra", "Cmp", "Con", "Dec", "Wor", "Agi", "Jum", "Pac"])
-
-        #CD Roles:
-        roles["CentralDefender-Defend"].updateWeights(["Hea", "Mar", "Tck", "Pos", "Jum", "Str"], ["Agg", "Ant", "Bra", "Cmp", "Con", "Dec", "Pac"])
-        roles["CentralDefender-Stopper"].updateWeights(["Hea", "Tck", "Agg", "Bra", "Dec", "Pos", "Jum", "Str"], [""])
-  
-
-
-        #WBLR Roles:
-
-        #DM Roles:
-
-        #MLR Roles:
-
-        #MC Roles:
-
-        #AMLR Roles:
-
-        #AMC Roles:
-
-        #FWD Roles:
+        for role in roles:
+            roles[role].updateWeights(key_attributes[role], important_attributes[role])
 
         return roles
 
