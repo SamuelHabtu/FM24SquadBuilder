@@ -147,7 +147,7 @@ def getTeam(team_name):
                 name = values[0]
                 attributes = {headers[i]: int(values[i+1]) for i in range(len(headers))}
                 players.append(Player(name=name, attributes=attributes))
-    
+    print(players)
     return players
 
 def main():
