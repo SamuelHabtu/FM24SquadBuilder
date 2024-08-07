@@ -34,26 +34,32 @@ def main():
     roster = getTeam(team_file_name)
     test = Formation()
 
-    #for player in roster:
-    #    print(f"Name: {player.name}, Attributes: {player.attributes}")
-    
+    scores = dict({})
+    perfect_scores = dict({})
     perfect_score = 0
-    for atri in test.roles["FalseNine-Support"].weights:
-        perfect_score += test.roles["FalseNine-Support"].weights[atri]*20
-    sum = 0
-    scores = []
-    #for role in test.roles:
+    score = 0
+    for role in test.roles:
     #    for atri in player.attributes:
+        perfect_score = 0
+        for atri in test.roles[role].weights:
+            perfect_score += test.roles[role].weights[atri]*20
+        perfect_scores[role] = perfect_score
+        
+        for player in roster:
+            for atri in player.attributes:
+                score += player.attributes[atri]*test.roles[role].weights[atri]
+            if role in scores:
+                scores[role].append((player.name, score))
+            else:
+                scores[role] = [(player.name, score)]
+            print(f"{player.name}: {role}: {score} Role ability rating of: {20*(score/(perfect_score/20)) - 120}")        
+            score = 0
 
-    for player in roster:
-
-        for atri in player.attributes:
-           sum += player.attributes[atri] *test.roles["FalseNine-Support"].weights[atri]
-        scores.append((player.name, sum))
-        print(f"{player.name}: FalseNine-Support: {sum} Role ability rating of : {20*(sum/(perfect_score/20)) - 120}")
-        sum = 0
-    scores.sort(key = lambda a:a[1], reverse=True)
-    print(scores[:5])
+    for role in scores:
+        scores[role].sort(key = lambda a:a[1], reverse = True)
+        print(f"\nTop 5 Scores for {role}:\n")
+        for score in scores[role][:5]:
+            print(f"{score}")
 
 if __name__ == "__main__":
     main()
