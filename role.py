@@ -7,19 +7,25 @@ class Role():
 
     def updateWeights(self, key_attributes, important_attributes):
 
-        non_important_cap = 3.0
-        key_atr = 10.0
-        important_atr = 8.0
+        non_important_cap = 7
+        key_atr = 2#10.0
+        important_atr = 1.5#8.0
 
-        for attribute in self.weights:
-            self.weights[attribute] = min(non_important_cap, self.weights[attribute])
+        #for attribute in self.weights:
+            #self.weights[attribute] = min(non_important_cap, self.weights[attribute])
         
         for attribute in key_attributes:
-            self.weights[attribute] = key_atr
+            #if self.weights[attribute] != 0:
+            self.weights[attribute] = max(10*key_atr, self.weights[attribute]*key_atr)
+            #else:
+            #    self.weights[attribute] = 9*key_atr
 
         for attribute in important_attributes:
-            self.weights[attribute] = important_atr
+            #if self.weights[attribute] != 0:
+            self.weights[attribute] = max(8*important_atr, self.weights[attribute]*important_atr)
+            #else:
+            #    self.weights[attribute] = 7*important_atr
 
     def __repr__(self):
-        return f"{self.weights}"
+        return f"{self.role} on {self.duty}"
 

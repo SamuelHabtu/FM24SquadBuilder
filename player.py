@@ -10,3 +10,6 @@ class Player():
         '''
         self.name = name
         self.attributes = attributes if attributes is not None else {}
+
+    def __repr__(self):
+        return f"{self.name}"        
