@@ -136,7 +136,6 @@ def getTeam(team_name):
     players = []
     with open(f"teams/{team_name}", "r", encoding= "utf-8") as file:
         lines = file.readlines()
-        
         # Process the header to get attribute names
         lines = [line.strip() for line in lines if line.strip() and '---' not in line]
         headers = [header.strip() for header in lines[0].split("|") if header.strip()]
@@ -147,7 +146,6 @@ def getTeam(team_name):
                 name = values[0]
                 attributes = {headers[i]: int(values[i+1]) for i in range(len(headers))}
                 players.append(Player(name=name, attributes=attributes))
-    print(players)
     return players
 
 def main():
