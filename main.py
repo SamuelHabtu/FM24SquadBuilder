@@ -77,17 +77,19 @@ def tournamentSelect(population, tournament_size = 3):
     return participants[fitness_scores.index(max(fitness_scores))]
 
 def evaluateTeam(team):
-    global n_runs
-    n_runs += 1
+
     roles = Formation().roles
     score = 0
+    perfect_score = 0
     for position in team:
         for attribute in team[position][1].attributes:
             score += team[position][1].attributes[attribute]*team[position][0].weights[attribute]
-    return score
+            perfect_score += 20*team[position][0].weights[attribute]
+        
+    return (20*(score/(perfect_score/20)) - 120)
 
 
-def geneticOptimization(players, formation, population_size = 50, generations = 200, mutation_rate= 0.5, crossover_rate = 0.6, elitism = 0.05, min_max = False):
+def geneticOptimization(players, formation, population_size = 100, generations = 100, mutation_rate= 0.75, crossover_rate = 0.7, elitism = 0.05, min_max = False):
 
     best_individual = None
     population = initializePopulation(players, formation, population_size)
@@ -119,6 +121,7 @@ def geneticOptimization(players, formation, population_size = 50, generations = 
         if current_best_fitness > best_fitness:
             print(f"Changing up best individual because: {current_best_fitness} > {best_fitness}")
             print(f"new best team has fitness: {current_best_fitness}")
+            generation = 0
             for position in sorted_population[0]:
                 print(f"{position}: {sorted_population[0][position]}")
             print("------------------------------------------------------------")
@@ -159,7 +162,12 @@ def main():
     team_file_name = team_files[int(input(": ")) - 1]
     roster = getTeam(team_file_name)
     roles = Formation().roles
+    '''
     formation = {"GK": "SweeperKeeper-Defend", "LB": "InvertedFullBack-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "InvertedWingback-Defend",
+                 "DM": "DeepLyingPlayMaker-Defend", "MCL": "Mezalla-Support", "MCR": "Mezalla-Support", "AML": "Winger-Attack", "AMR": "Winger-Attack", "ST": "FalseNine-Support"
+                 }
+    '''
+    formation = {"GK": "GoalKeeper-Defend", "LB": "InvertedFullBack-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "InvertedWingback-Defend",
                  "DM": "DeepLyingPlayMaker-Defend", "MCL": "Mezalla-Support", "MCR": "Mezalla-Support", "AML": "Winger-Attack", "AMR": "Winger-Attack", "ST": "FalseNine-Support"
                  }
     for position in formation:
