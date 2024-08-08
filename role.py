@@ -8,21 +8,21 @@ class Role():
     def updateWeights(self, key_attributes, important_attributes):
 
         non_important_cap = 7
-        key_atr = 10#2#10.0
-        important_atr = 8#1.5#8.0
+        key_atr = 10
+        important_atr = 9
 
         #for attribute in self.weights:
             #self.weights[attribute] = min(non_important_cap, self.weights[attribute])
         
         for attribute in key_attributes:
             #if self.weights[attribute] != 0:
-            self.weights[attribute] = max(10*self.weights[attribute], self.weights[attribute]*key_atr)
+            self.weights[attribute] = key_atr
             #else:
             #    self.weights[attribute] = 9*key_atr
 
         for attribute in important_attributes:
             #if self.weights[attribute] != 0:
-            self.weights[attribute] = max(8*self.weights[attribute], self.weights[attribute]*important_atr)
+            self.weights[attribute] = important_atr
             #else:
             #    self.weights[attribute] = 7*important_atr
 

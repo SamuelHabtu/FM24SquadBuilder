@@ -13,6 +13,8 @@ n_runs = 1
 def randomStart(players, formation):
     chosen_players = dict({})
     already_picked = set({})
+
+
     for role in formation:
         pick = random.choice(players)
 
@@ -27,8 +29,6 @@ def initializePopulation(players, formation, population_size = 5, team_size = 11
     population = []
     for i in range(population_size):
         population.append(randomStart(players, formation))
-
-
     return population
 
 def crossOver(parent_1, parent_2):
@@ -76,20 +76,24 @@ def tournamentSelect(population, tournament_size = 3):
         fitness_scores.append(evaluateTeam(participant))
     return participants[fitness_scores.index(max(fitness_scores))]
 
-def evaluateTeam(team):
+def evaluateTeam(team, forbidden_names = None):
 
     roles = Formation().roles
     score = 0
     perfect_score = 0
+    forbidden_names = ["Deniz Kahraman", "Yusuf Sertkaya", "Lokman Özlü", "Jack Platt", "Abdullah Koç", "Fatih Dalgıç", "Danny Burns",
+                       "Tony García", "Charles Barkei", "Serkan Kazan", "Jovan Mijatović"]
     for position in team:
         for attribute in team[position][1].attributes:
             score += team[position][1].attributes[attribute]*team[position][0].weights[attribute]
             perfect_score += 20*team[position][0].weights[attribute]
+        if team[position][1].name in forbidden_names:
+            return -120
         
     return (20*(score/(perfect_score/20)) - 120)
 
 
-def geneticOptimization(players, formation, population_size = 1000, generations = 25, mutation_rate= 0.1, crossover_rate = 0.9, elitism = 0.01, min_max = False):
+def geneticOptimization(players, formation, population_size = 128, generations = 100, mutation_rate= 0.2, crossover_rate = 0.9, elitism = 0.01, min_max = False):
 
     best_individual = None
     population = initializePopulation(players, formation, population_size)
@@ -121,12 +125,14 @@ def geneticOptimization(players, formation, population_size = 1000, generations 
         if current_best_fitness > best_fitness:
             print(f"Changing up best individual because: {current_best_fitness} > {best_fitness}")
             print(f"new best team has fitness: {current_best_fitness}")
-            generation = 0
+            #generation = 0
             for position in sorted_population[0]:
                 print(f"{position}: {sorted_population[0][position]}")
             print("------------------------------------------------------------")
             best_fitness = current_best_fitness
             best_individual = sorted_population[0].copy()
+            print("Restarting generations")
+            generation = 0
 
         new_population.extend([best_individual])
         population = new_population[:]
@@ -162,16 +168,16 @@ def main():
     team_file_name = team_files[int(input(": ")) - 1]
     roster = getTeam(team_file_name)
     roles = Formation().roles
-
+    '''
     formation = {"GK": "SweeperKeeper-Defend", "LB": "InvertedFullBack-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "InvertedWingback-Defend",
                  "DM": "DeepLyingPlayMaker-Defend", "MCL": "Mezalla-Support", "MCR": "Mezalla-Support", "AML": "Winger-Attack", "AMR": "Winger-Attack", "ST": "FalseNine-Support"
                  }
     '''
-    formation = {"GK": "SweeperKeeper-Defend", "LWB": "CompleteWingback-Attack", "CDL": "WideCenterBack-Defend", "CDR": "WideCenterBack-Defend", "RWB": "CompleteWingback-Attack",
-                 "CDC": "CentralDefender-Defend", "DML": "DefensiveMidfielder-Support", "DMR": "DefensiveMidfielder-Support", "AML": "InsideForward-Support", "AMR": "InsideForward-Support", 
-                 "ST": "AdvancedForward-Attack"
+    formation = {"GK": "SweeperKeeper-Attack", "CDL": "WideCenterBack-Defend", "CDC": "CentralDefender-Defend", "CDR": "WideCenterBack-Defend", "ML": "Winger-Attack",
+                 "MCL": "CentralMidFielder-Defend", "MC": "AdvancedPlayMaker-Support", "MCR": "CentralMidFielder-Defend", "MR": "Winger-Attack", "STL": "PressingForward-Support", 
+                 "STR": "PressingForward-Support"
                  }
-    '''
+    
 
     for position in formation:
         formation[position] = roles[formation[position]]
