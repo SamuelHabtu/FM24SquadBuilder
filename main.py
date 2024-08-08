@@ -89,7 +89,7 @@ def evaluateTeam(team):
     return (20*(score/(perfect_score/20)) - 120)
 
 
-def geneticOptimization(players, formation, population_size = 100, generations = 100, mutation_rate= 0.75, crossover_rate = 0.7, elitism = 0.05, min_max = False):
+def geneticOptimization(players, formation, population_size = 1000, generations = 25, mutation_rate= 0.1, crossover_rate = 0.9, elitism = 0.01, min_max = False):
 
     best_individual = None
     population = initializePopulation(players, formation, population_size)
@@ -162,14 +162,17 @@ def main():
     team_file_name = team_files[int(input(": ")) - 1]
     roster = getTeam(team_file_name)
     roles = Formation().roles
-    '''
+
     formation = {"GK": "SweeperKeeper-Defend", "LB": "InvertedFullBack-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "InvertedWingback-Defend",
                  "DM": "DeepLyingPlayMaker-Defend", "MCL": "Mezalla-Support", "MCR": "Mezalla-Support", "AML": "Winger-Attack", "AMR": "Winger-Attack", "ST": "FalseNine-Support"
                  }
     '''
-    formation = {"GK": "GoalKeeper-Defend", "LB": "InvertedFullBack-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "InvertedWingback-Defend",
-                 "DM": "DeepLyingPlayMaker-Defend", "MCL": "Mezalla-Support", "MCR": "Mezalla-Support", "AML": "Winger-Attack", "AMR": "Winger-Attack", "ST": "FalseNine-Support"
+    formation = {"GK": "SweeperKeeper-Defend", "LWB": "CompleteWingback-Attack", "CDL": "WideCenterBack-Defend", "CDR": "WideCenterBack-Defend", "RWB": "CompleteWingback-Attack",
+                 "CDC": "CentralDefender-Defend", "DML": "DefensiveMidfielder-Support", "DMR": "DefensiveMidfielder-Support", "AML": "InsideForward-Support", "AMR": "InsideForward-Support", 
+                 "ST": "AdvancedForward-Attack"
                  }
+    '''
+
     for position in formation:
         formation[position] = roles[formation[position]]
     #team = [
