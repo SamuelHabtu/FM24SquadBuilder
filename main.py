@@ -81,19 +81,19 @@ def evaluateTeam(team, forbidden_names = None):
     roles = Formation().roles
     score = 0
     perfect_score = 0
-    forbidden_names = ["Deniz Kahraman", "Yusuf Sertkaya", "Lokman Özlü", "Jack Platt", "Abdullah Koç", "Fatih Dalgıç", "Danny Burns",
-                       "Tony García", "Charles Barkei", "Serkan Kazan", "Jovan Mijatović"]
+    #forbidden_names = ["Deniz Kahraman", "Yusuf Sertkaya", "Lokman Özlü", "Jack Platt", "Abdullah Koç", "Fatih Dalgıç", "Danny Burns",
+    #                   "Tony García", "Charles Barkei", "Serkan Kazan", "Jovan Mijatović"]
     for position in team:
         for attribute in team[position][1].attributes:
             score += team[position][1].attributes[attribute]*team[position][0].weights[attribute]
             perfect_score += 20*team[position][0].weights[attribute]
-        if team[position][1].name in forbidden_names:
-            return -120
+        #if team[position][1].name in forbidden_names:
+        #    return -120
         
     return (20*(score/(perfect_score/20)) - 120)
 
 
-def geneticOptimization(players, formation, population_size = 128, generations = 100, mutation_rate= 0.2, crossover_rate = 0.9, elitism = 0.01, min_max = False):
+def geneticOptimization(players, formation, population_size = 2048, generations = 25, mutation_rate= 0.05, crossover_rate = 0.9, elitism = 0.01, min_max = False):
 
     best_individual = None
     population = initializePopulation(players, formation, population_size)
