@@ -181,7 +181,7 @@ def main():
                  }
     '''
     formation =  {"GK": "SweeperKeeper-Attack", "LB": "InvertedWingback-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "CompleteWingback-Attack",
-                 "DM": "HalfBack-Defend", "MCL": "DeepLyingPlayMaker-Support", "MCR": "Mezalla-Support", "MR": "WidePlaymaker-Attack", "ML": "Winger-Attack", "ST": "FalseNine-Support"
+                 "DM": "HalfBack-Defend", "MCL": "DeepLyingPlayMaker-Support", "MCR": "Mezalla-Attack", "MR": "WidePlaymaker-Attack", "ML": "Winger-Attack", "ST": "FalseNine-Support"
                  }
 
     for position in formation:
