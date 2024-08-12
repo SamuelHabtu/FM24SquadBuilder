@@ -56,6 +56,7 @@ def canSwap(position, parent_one, parent_two):
             return False
         
     return True
+
 def mutate(players, team):
 
     position_to_mutate = random.choice(list(team.keys()))
@@ -93,7 +94,7 @@ def evaluateTeam(team, forbidden_names = None):
     return (20*(score/(perfect_score/20)) - 120)
 
 
-def geneticOptimization(players, formation, population_size = 2048, generations = 25, mutation_rate= 0.05, crossover_rate = 0.9, elitism = 0.01, min_max = False):
+def geneticOptimization(players, formation, population_size = 1750, generations = 50, mutation_rate= 0.2, crossover_rate = 0.9, elitism = 0.00, min_max = False):
 
     best_individual = None
     population = initializePopulation(players, formation, population_size)
@@ -102,6 +103,7 @@ def geneticOptimization(players, formation, population_size = 2048, generations 
     selected_parents = []
     num_elites = int(elitism * population_size)
     for generation in range(generations):
+
         fitness_scores = [evaluateTeam(team) for team in population]
         sorted_population = [x for _, x in sorted(zip(fitness_scores, population), key = lambda pair: pair[0], reverse=True)]
         selected_parents = [tournamentSelect(sorted_population[num_elites:]) for _ in range(population_size)]
@@ -131,8 +133,7 @@ def geneticOptimization(players, formation, population_size = 2048, generations 
             print("------------------------------------------------------------")
             best_fitness = current_best_fitness
             best_individual = sorted_population[0].copy()
-            print("Restarting generations")
-            generation = 0
+
 
         new_population.extend([best_individual])
         population = new_population[:]
@@ -173,11 +174,15 @@ def main():
                  "DM": "DeepLyingPlayMaker-Defend", "MCL": "Mezalla-Support", "MCR": "Mezalla-Support", "AML": "Winger-Attack", "AMR": "Winger-Attack", "ST": "FalseNine-Support"
                  }
     '''
+    '''
     formation = {"GK": "SweeperKeeper-Attack", "CDL": "WideCenterBack-Defend", "CDC": "CentralDefender-Defend", "CDR": "WideCenterBack-Defend", "ML": "Winger-Attack",
                  "MCL": "CentralMidFielder-Defend", "MC": "AdvancedPlayMaker-Support", "MCR": "CentralMidFielder-Defend", "MR": "Winger-Attack", "STL": "PressingForward-Support", 
                  "STR": "PressingForward-Support"
                  }
-    
+    '''
+    formation =  {"GK": "SweeperKeeper-Attack", "LB": "InvertedWingback-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "CompleteWingback-Attack",
+                 "DM": "HalfBack-Defend", "MCL": "DeepLyingPlayMaker-Support", "MCR": "Mezalla-Support", "MR": "WidePlaymaker-Attack", "ML": "Winger-Attack", "ST": "FalseNine-Support"
+                 }
 
     for position in formation:
         formation[position] = roles[formation[position]]
