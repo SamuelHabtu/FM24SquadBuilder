@@ -94,7 +94,7 @@ def evaluateTeam(team, forbidden_names = None):
     return (20*(score/(perfect_score/20)) - 120)
 
 
-def geneticOptimization(players, formation, population_size = 1750, generations = 50, mutation_rate= 0.2, crossover_rate = 0.9, elitism = 0.00, min_max = False):
+def geneticOptimization(players, formation, population_size = 10000, generations = 25, mutation_rate= 0.2, crossover_rate = 0.9, elitism = 0.00, min_max = False):
 
     best_individual = None
     population = initializePopulation(players, formation, population_size)
@@ -173,15 +173,17 @@ def main():
     formation = {"GK": "SweeperKeeper-Defend", "LB": "InvertedFullBack-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "InvertedWingback-Defend",
                  "DM": "DeepLyingPlayMaker-Defend", "MCL": "Mezalla-Support", "MCR": "Mezalla-Support", "AML": "Winger-Attack", "AMR": "Winger-Attack", "ST": "FalseNine-Support"
                  }
-    '''
-    '''
-    formation = {"GK": "SweeperKeeper-Attack", "CDL": "WideCenterBack-Defend", "CDC": "CentralDefender-Defend", "CDR": "WideCenterBack-Defend", "ML": "Winger-Attack",
-                 "MCL": "CentralMidFielder-Defend", "MC": "AdvancedPlayMaker-Support", "MCR": "CentralMidFielder-Defend", "MR": "Winger-Attack", "STL": "PressingForward-Support", 
+    formation = {"GK": "SweeperKeeper-Attack", "CDL": "WideCenterBack-Defend", "CDC": "CentralDefender-Defend", "CDR": "WideCenterBack-Defend", "LB": "CompleteWingback-Attack",
+                 "MCL": "BallWinningMidFielder-Defend", "MC": "AdvancedPlayMaker-Support", "MCR": "BallWinningMidFielder-Defend", "RB": "CompleteWingback-Attack", "STL": "PressingForward-Support", 
                  "STR": "PressingForward-Support"
                  }
-    '''
     formation =  {"GK": "SweeperKeeper-Attack", "LB": "InvertedWingback-Defend", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "CompleteWingback-Attack",
                  "DM": "HalfBack-Defend", "MCL": "DeepLyingPlayMaker-Support", "MCR": "Mezalla-Attack", "MR": "WidePlaymaker-Attack", "ML": "Winger-Attack", "ST": "FalseNine-Support"
+                 }
+    '''
+
+    formation =  {"GK": "SweeperKeeper-Attack", "LB": "CompleteWingback-Attack", "CDL": "CentralDefender-Defend", "CDR": "CentralDefender-Defend", "RB": "CompleteWingback-Attack",
+                 "DML": "HalfBack-Defend", "DMR": "DeepLyingPlayMaker-Support", "ML": "WidePlayMaker-Support", "MR": "WidePlayMaker-Support", "AMC": "Enganche-Support", "ST": "PressingForward-Attack"
                  }
 
     for position in formation:
