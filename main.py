@@ -241,6 +241,7 @@ def main():
     
     print(f"Now lets do genetic Optimization and see if we get the same result")
     optimized_team = geneticOptimization(roster, formation)
+    
     for position in optimized_team:
         print(f"{position}: {optimized_team[position]}")
 
