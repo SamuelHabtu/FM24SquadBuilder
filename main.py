@@ -93,6 +93,15 @@ def evaluateTeam(team, forbidden_names = None):
         
     return (20*(score/(perfect_score/20)) - 120)
 
+def evaluatePlayer(player, role):
+
+    score = 0
+    perfect_score = 0
+
+    for attribute in role.weights:
+        score += player.attributes[attribute]*role.weights[attribute]
+        perfect_score += 20*role.weights[attribute]
+    return (20*(score/(perfect_score/20)) - 120)
 
 def geneticOptimization(players, formation, population_size = 4000, generations = 25, mutation_rate= 0.1, crossover_rate = 0.7, elitism = 0.0, min_max = False):
 
@@ -158,6 +167,75 @@ def getTeam(team_name):
                 players.append(Player(name=name, attributes=attributes))
     return players
 
+def hungarianAlgorithm(players, tactic):
+
+    profit_matrix = []
+    #first we set up the profit matrix:
+    #such that, since we will always have more players than roles there will be dummy roles where the players scores are 0 regardless
+    #meaning that any players who arent needed for maximizing another score will get assigned here
+    #the scores wil be calculated first starting from finding the best player at one role and then subtracting every players
+    #from that score to get their 'distance' from the best score, since this algorithm is usually used for minimizing cost
+    #instead im effectively minimizing distance from the best score
+    #it looks like this:    
+    #              Role 1  | Role 2 |  ... |    Role k|
+    #           ---------------------------------------
+    #Player #1| score      | score  |       | Score    |
+    #Player #2|...
+    #Player #3|...
+    #...      |...
+    #Player #n|...
+    temp_row = []
+    for player in players:
+        for position in tactic:
+            temp_row.append(evaluatePlayer(player, tactic[position]))
+        profit_matrix.append(temp_row)
+        temp_row = []
+
+    #now we make our matrix square by filling in dummy variables
+    diff = len(profit_matrix) - len(profit_matrix[0])
+
+    if diff > 0:
+        for i in range(len(profit_matrix)):
+            profit_matrix[i].extend([0] * diff)
+    #if somehow we have more roles than players(should never happen)
+    elif diff < 0:
+        print("???")
+        for i in range(len(profit_matrix)):
+            for j in range(diff):
+                profit_matrix[i].append(0)
+    max = 0
+    for row in profit_matrix:
+        for score in row:
+            if score > max:
+                max = score
+    for i in range(len(profit_matrix)):
+        for j in range(len(profit_matrix[i])):
+            if profit_matrix[i][j] > 0:
+                profit_matrix[i][j] = max - profit_matrix[i][j] 
+    cost_matrix = reduce(profit_matrix)
+def reduce(cost_matrix):
+
+    result = []
+    for row in cost_matrix:
+        smallest = min(row)
+        for i in range(len(row)):
+            row[i] = row[i] - smallest
+        
+    for i in range(len(cost_matrix[0])):
+        smallest_col = float("inf")
+        for row in cost_matrix:
+            if row[i] < smallest_col and row[i] > 0:
+                smallest_col = row[i]
+    #now we subtract the smallest non-zero from non-zero values
+    for j in range(len(cost_matrix[0])):
+        for i in range(len(cost_matrix)):
+            if cost_matrix[i][j] > 0:
+                cost_matrix[i][j] = cost_matrix[i][j] - smallest_col
+
+
+
+
+
 def main():
     team_files = []
     #gather all files within the teams folder
@@ -195,10 +273,11 @@ def main():
     #        "Mezalla-Support", "Winger-Attack", "FalseNine-Support"
     #        ]
     
-
+    hungarianAlgorithm(roster, formation)
+    '''
     optimized_team = geneticOptimization(roster, formation)
     for position in optimized_team:
         print(f"{position}: {optimized_team[position]}")
-
+    '''
 if __name__ == "__main__":
     main()
